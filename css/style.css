@@ -49,3 +49,7 @@
 
 .user-profile__info--rank {
   font-size: 0.7rem; }
+
+.flex-5v5__icon,
+.flex-3v3__icon {
+  font-size: 5rem; }

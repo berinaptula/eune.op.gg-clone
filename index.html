@@ -193,10 +193,478 @@
                                     <button class="btn btn-lg btn-primary mr-1">Update</button>
                                     <button class="btn btn-lg btn-light ml-1">Tier Graph</button>
                                 </div>
+                                <small class="text-muted ml-3">Last updated 5 days ago</small>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Starts Main content  -->
+    <div class="container-fluid">
+        <div class="container">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active d-inline-block" id="nav-summary-tab" data-toggle="tab"
+                        href="#nav-summary" role="tab" aria-controls="nav-summary" aria-selected="true">Summary</a>
+                    <a class="nav-item nav-link d-inline-block" id="nav-champions-tab" data-toggle="tab"
+                        href="#nav-champions" role="tab" aria-controls="nav-champions"
+                        aria-selected="false">Champions</a>
+                    <a class="nav-item nav-link d-inline-block" id="nav-leagues-tab" data-toggle="tab"
+                        href="#nav-leagues" role="tab" aria-controls="nav-leagues" aria-selected="false">Leagues</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-summary" role="tabpanel"
+                    aria-labelledby="nav-summary-tab">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="row">
+                                    <div class="col-12 border border-1 my-2">
+                                        <div class="row">
+                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0">
+                                                <img src="img/gold_4.png" alt="" style="width: 80%;">
+                                            </div>
+                                            <div class="col-8 d-flex  align-items-center m-0 p-0">
+                                                <div class="d-flex flex-column p-3">
+                                                    <span class="text-muted">Ranked Solo</span>
+                                                    <span class="text-primary"><strong>Gold 4</strong></span>
+                                                    <p class="m-0"><strong>71LP</strong>/7W 3L</p>
+                                                    <span class="text-muted">Win ratio 70%</span>
+                                                    <span class="text-muted">Zilean's Inquisitors</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 border border-1 p-3 my-2">
+                                        <div class="row">
+                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0">
+                                                <img src="img/Unranked.png" alt="" style="width: 50%;">
+                                            </div>
+                                            <div class="col-8 d-flex flex-column justify-content-center m-0 p-0">
+                                                <span class="text-muted">Flex 5:5 Rank</span>
+                                                <strong class="text-secondary">Unkranked</strong>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //////////////////////////////////////////////////////////////////////////////////// -->
+                                    <!-- GAMES STATISTICS -->
+                                    <div class="col-12 p-0 my-2">
+                                        <ul class="nav nav-tabs text-center" id="myTab" role="tablist">
+                                            <li class="nav-item p-0 d-flex border border-1 border-bottom-0">
+                                                <a class="nav-link active" id="current-season-tab" data-toggle="tab"
+                                                    href="#current-season" role="tab" aria-controls="current-season"
+                                                    aria-selected="true">
+                                                    <small>S9 Total</small></a>
+                                            </li>
+                                            <li class="nav-item p-0 d-flex border border-1 border-bottom-0">
+                                                <a class="nav-link p-1 " id="ranked-solo-tab" data-toggle="tab"
+                                                    href="#ranked-solo" role="tab" aria-controls="ranked-solo"
+                                                    aria-selected="false">
+                                                    <small>Ranked Solo</small>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item p-0 d-flex border border-1 border-bottom-0">
+                                                <a class="nav-link  p-1 " id="flex-5v5-tab" data-toggle="tab"
+                                                    href="#flex-5v5" role="tab" aria-controls="flex-5v5"
+                                                    aria-selected="false">
+                                                    <small>
+                                                        Ranked Flex
+                                                        <span class="d-block">5v5</span>
+                                                    </small>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item p-0 d-flex border border-1 border-bottom-0">
+                                                <a class="nav-link p-1  " id="flex-3v3-tab" data-toggle="tab"
+                                                    href="#flex-3v3" role="tab" aria-controls="flex-3v3"
+                                                    aria-selected="false">
+                                                    <small>
+                                                        Ranked Flex
+                                                        <span class="d-block">3v3</span>
+                                                    </small>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="current-season" role="tabpanel"
+                                                aria-labelledby="current-season-tab">
+                                                <!-- ////////////////  CURRENT SEASON MATCHES /////////////////// -->
+                                                <div class="row m-0 border border-1">
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0 d-flex justify-content-center align-items-center">
+                                                                <img src="img/Udyr.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Udyr</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        194.5 (7.1)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-success">3.86:1 KDA</strong>
+                                                                    <small class="text-muted">8.0 / 3.7 / 6.2</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">83%</strong>
+                                                                    <small class="text-muted">6 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0 d-flex justify-content-center align-items-center">
+                                                                <img src="img/Jax.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1r">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Jax</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        166.0 (6.0)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">1.67:1 KDA</strong>
+                                                                    <small class="text-muted">7.0 / 6.0 / 3.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">100%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Shaco.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Shaco</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        196.0 (5.4)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-warning">5.33:1 KDA</strong>
+                                                                    <small class="text-muted">9.0 / 3.0 / 7.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">100%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Volibear.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Volibear</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        134.0 (6.3)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-warning">5.00:1 KDA</strong>
+                                                                    <small class="text-muted">9.0 / 3.0 / 7.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">0%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Janna.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Janna</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        17.0 (0.5)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-success">3.33:1 KDA</strong>
+                                                                    <small class="text-muted">2.0 / 9.0 / 28.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">0%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 p-2 text-center">
+                                                        <a href="#" class="text-secondary">Show More + Past Seasons</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <!-- ///////////////////// RANKED SOLO ////////////// -->
+                                            <div class="tab-pane fade" id="ranked-solo" role="tabpanel"
+                                                aria-labelledby="profile-tab">
+                                                <div class="row m-0 border border-1">
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0 d-flex justify-content-center align-items-center">
+                                                                <img src="img/Udyr.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Udyr</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        194.5 (7.1)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-success">4.91:1 KDA</strong>
+                                                                    <small class="text-muted">8.3 / 3.7 / 6.5</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">83%</strong>
+                                                                    <small class="text-muted">8 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Shaco.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Shaco</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        196.0 (5.4)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-warning">5.33:1 KDA</strong>
+                                                                    <small class="text-muted">9.0 / 3.0 / 7.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">100%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0 d-flex justify-content-center align-items-center">
+                                                                <img src="img/Jax.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1r">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Jax</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        166.0 (6.0)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">3.37:1 KDA</strong>
+                                                                    <small class="text-muted">17.0 / 11.0 / 3.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-danger" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">100%</strong>
+                                                                    <small class="text-muted">3 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Volibear.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Volibear</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        134.0 (6.3)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-warning">5.00:1 KDA</strong>
+                                                                    <small class="text-muted">9.0 / 3.0 / 7.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">0%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 m-0 py-1 border-bottom">
+                                                        <div class="row">
+                                                            <div
+                                                                class="col-2 p-0  d-flex justify-content-center align-items-center">
+                                                                <img src="img/Janna.png" alt=""
+                                                                    class="rounded-circle w-90">
+                                                            </div>
+                                                            <div class="col-3 p-0 pl-1">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted">Janna</strong>
+                                                                    <small class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top" title="avg. CS (CS/min)">CS
+                                                                        17.0 (0.5)</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-5 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-success">3.33:1 KDA</strong>
+                                                                    <small class="text-muted">2.0 / 9.0 / 28.0</small>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-2 p-0 text-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <strong class="text-muted" data-toggle="tooltip"
+                                                                        data-placement="top"
+                                                                        title="Win Ratio)">0%</strong>
+                                                                    <small class="text-muted">1 Played</small>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-12 p-2 text-center">
+                                                        <a href="#" class="text-secondary">Show More + Past Seasons</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="flex-5v5" role="tabpanel"
+                                                aria-labelledby="tab">
+                                                <div class="row text-center p-5">
+                                                    <div class="flex-5v5__icon col-12">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        There are no results found.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="flex-3v3" role="tabpanel"
+                                                aria-labelledby="flex-3v3-tab">
+                                                <div class="row text-center p-5">
+                                                    <div class="flex-3v3__icon col-12">
+                                                        <i class="fas fa-exclamation-circle"></i>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        There are no results found.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 p-0">
+                                        <div class="card bg-light mb-3 p-0">
+                                            <div class="card-header text-center">
+                                                <strong>Recently Played with (Recent 10 Games) </strong>
+                                            </div>
+                                            <div class="card-body d-flex justify-content-around">
+                                                <a href="#">Summoners</a>
+                                                <a href="#">Played</a>
+                                                <a href="#">Win</a>
+                                                <a href="#">Lose</a>
+                                                <a href="#">Win Ratio</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-8 bg-dark">XXX</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="nav-champions" role="tabpanel" aria-labelledby="nav-champions-tab">...
+                </div>
+                <div class="tab-pane fade" id="nav-leagues" role="tabpanel" aria-labelledby="nav-leagues-tab">...</div>
             </div>
         </div>
     </div>

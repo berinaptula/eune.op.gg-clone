@@ -1,0 +1,47 @@
+/* My utilities */
+.link-reset:active,
+.link-reset:visited,
+.link-reset {
+    text-decoration: none !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Colors */
+
+:root {
+    --games-hover: rgb(96, 96, 96);
+}
+
+/* Top Navigation */
+.navbar-logo {
+    height: 1rem;
+}
+
+.navbar-img {
+    height: 1.5rem;
+}
+
+.navbar__game-icon {
+    width: 3rem;
+}
+
+.top-bar__games-hover:hover {
+    background-color: var(--games-hover);
+}
+
+/* Bottom Navigation */
+.region-img {
+    height: 1.6rem;
+}
+
+.regions-custom-height {
+    height: 15rem !important;
+    overflow: scroll;
+
+}
+
+@import "user-profile";
+@import "user-statistics"
