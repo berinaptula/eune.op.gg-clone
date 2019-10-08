@@ -12,11 +12,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <title>Cards Basics</title>
+    <title>OP.GG</title>
 </head>
 
-<body class="bg-white">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0">
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark m-0 p-0"  style="">
         <a class="navbar-brand bg-primary p-2" href="#">
             <img class="navbar-logo" src="img/00-opgglogo.svg">
         </a>
@@ -36,7 +36,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto"  style="">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -46,7 +46,7 @@
             </ul>
         </div>
     </nav>
-    <nav class="container-fluid">
+    <nav class="container-fluid"  style="">
         <div class="row">
             <div class="col-6 bg-primary">
                 <nav class="navbar navbar-expand navbar-dark">
@@ -142,9 +142,9 @@
             </div>
         </div>
     </nav>
-    <div class="container mt-3">
+    <div class="container mt-3 main-content">
         <div class="row user-data">
-            <div class="col-5  p-0">
+            <div class="col-xl-6 col-lg-6 col-md-8 p-0">
                 <div class="col-8 offset-1 mb-2">
                     <div class="season-rankings p-0 d-flex justify-content-around">
                         <span class="badge badge-light" data-toggle="tooltip" data-placement="top" title="Gold 5">
@@ -203,8 +203,8 @@
     </div>
 
     <!-- Starts Main content  -->
-    <div class="container-fluid">
-        <div class="container">
+    <div class="container-fluid " style="">
+        <div class="container mr-0 ml-0">
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                     <a class="nav-item nav-link active d-inline-block" id="nav-summary-tab" data-toggle="tab"
@@ -221,11 +221,11 @@
                     aria-labelledby="nav-summary-tab">
                     <div class="container">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-xl-4 col-md-12">
                                 <div class="row">
-                                    <div class="col-12 border border-1 my-2">
-                                        <div class="row">
-                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0">
+                                    <div class="col-xl-12 col-md-6 col-6 border border-1 my-2">
+                                        <div class="row bg-white">
+                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0 ">
                                                 <img src="img/gold_4.png" alt="" style="width: 80%;">
                                             </div>
                                             <div class="col-8 d-flex  align-items-center m-0 p-0">
@@ -239,9 +239,9 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-12 border border-1 p-3 my-2">
-                                        <div class="row">
-                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0">
+                                    <div class="col-xl-12 col-md-6 col-6 border border-1 p-3 my-2 bg-white d-flex justify-content-center align-items-center">
+                                        <div class="row ">
+                                            <div class="col-4 d-flex justify-content-center align-items-center m-0 p-0 ">
                                                 <img src="img/Unranked.png" alt="" style="width: 50%;">
                                             </div>
                                             <div class="col-8 d-flex flex-column justify-content-center m-0 p-0">
@@ -292,7 +292,7 @@
                                             <div class="tab-pane fade show active" id="current-season" role="tabpanel"
                                                 aria-labelledby="current-season-tab">
                                                 <!-- ////////////////  CURRENT SEASON MATCHES /////////////////// -->
-                                                <div class="row m-0 border border-1">
+                                                <div class="row m-0 border border-1 bg-white">
                                                     <div class="col-12 m-0 py-1 border-bottom">
                                                         <div class="row">
                                                             <div
@@ -457,9 +457,9 @@
                                             <!-- ///////////////////// RANKED SOLO ////////////// -->
                                             <div class="tab-pane fade" id="ranked-solo" role="tabpanel"
                                                 aria-labelledby="profile-tab">
-                                                <div class="row m-0 border border-1">
+                                                <div class="row m-0 border border-1 bg-white">
                                                     <div class="col-12 m-0 py-1 border-bottom">
-                                                        <div class="row">
+                                                        <div class="row ">
                                                             <div
                                                                 class="col-2 p-0 d-flex justify-content-center align-items-center">
                                                                 <img src="img/Udyr.png" alt=""
@@ -658,30 +658,1022 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-8 bg-dark">XXX</div>
+                            <div class="col-xl-8 col-md-12 mt-2">
+                                <!-- /////////////////////////// NAVIGATION FOR MATCH HISTORY ///////////////////////// -->
+                                <div class="row">
+                                    <div class="col-12  p-0 ml-2">
+                                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="total-tab" data-toggle="tab"
+                                                    href="#total" role="tab" aria-controls="total"
+                                                    aria-selected="true">Total</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="ranked-tab" data-toggle="tab" href="#ranked"
+                                                    role="tab" aria-controls="ranked" aria-selected="false">Ranked
+                                                    Solo</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="ranked-flex-tab" data-toggle="tab"
+                                                    href="#ranked-flex" role="tab" aria-controls="ranked-flex"
+                                                    aria-selected="false">Ranked Flex</a>
+                                            </li>
+                                            <li class="nav-item ml-auto">
+                                                <form class="form-inline">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control border-right-0"
+                                                            placeholder="Search a Champion"
+                                                            aria-label="Search a Champion"
+                                                            aria-describedby="basic-addon1">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text bg-white border-left-0"
+                                                                id="basic-addon1">
+                                                                <i class="fas fa-search"></i>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                        <!-- ////////////////////////// MATCH HISTORY //////////////////////////// -->
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="total" role="tabpanel"
+                                                aria-labelledby="total-tab">
+                                                <div class="row m-0 border border-secondary">
+                                                    <!-- /////////////////// CHARTS /////////////// -->
+                                                    <div class="col-5 p-3">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <small><span class="text-muted">13G 5W
+                                                                        8L</span></small>
+                                                                <img src="img/chart.png" alt="" class="mt-3 w-100">
+                                                            </div>
+                                                            <div
+                                                                class="col-6 d-flex flex-column justify-content-center align-items-center">
+                                                                <small>
+                                                                    <strong>7.2 / <span class="text-danger">7.8</span> /
+                                                                        13.0</strong>
+                                                                </small>
+                                                                <h5 class="text-muted">2.58:1 <span
+                                                                        class="text-danger">(59%)</span></h5>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <!-- /////////////////// TOP 3 CHAMPIONS /////////////// -->
+                                                    <div
+                                                        class="col-4 d-flex flex-column justify-content-center align-items-center border border-secondary border-top-0 border-bottom-0">
+                                                        <div class="row">
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="row p-2 d-flex justify-content-center align-items-center">
+                                                                    <div class="col-2 p-0 m-0">
+                                                                        <img src="img/KhaZix.png" alt=""
+                                                                            style="width: 100%;" class="rounded-circle">
+                                                                    </div>
+                                                                    <div class="col-10 d-flex flex-column">
+                                                                        <small>KhaZix</small>
+                                                                        <small><span
+                                                                                class="font-weight-bold">50%</span>(1W
+                                                                            1L) <span class="font-weight-bold">2.44
+                                                                                KDA</span></small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="row p-2 d-flex justify-content-center align-items-center">
+                                                                    <div class="col-2 p-0 m-0">
+                                                                        <img src="img/Zed.png" alt=""
+                                                                            style="width: 100%;" class="rounded-circle">
+                                                                    </div>
+                                                                    <div class="col-10 d-flex flex-column">
+                                                                        <small>Zed</small>
+                                                                        <small><span
+                                                                                class="font-weight-bold">0%</span>(0W
+                                                                            2L) <span class="font-weight-bold">2.2
+                                                                                KDA</span></small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-12">
+                                                                <div
+                                                                    class="row p-2 d-flex justify-content-center align-items-center">
+                                                                    <div class="col-2 p-0 m-0">
+                                                                        <img src="img/Nidalee.png" alt=""
+                                                                            style="width: 100%;" class="rounded-circle">
+                                                                    </div>
+                                                                    <div class="col-10 d-flex flex-column">
+                                                                        <small>Nidalee</small>
+                                                                        <small><span
+                                                                                class="font-weight-bold">100%</span>(1W
+                                                                            0L) <span
+                                                                                class="font-weight-bold text-warning">16
+                                                                                KDA</span></small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div
+                                                        class="col-3 d-flex justify-content-around align-items-center flex-column">
+                                                        <p><small>Preferred Position (Rank)</small></p>
+                                                        <p class="d-flex">*<small>Not
+                                                                found
+                                                                position</small></p>
+                                                    </div>
+                                                </div>
+
+                                                <!--  ///////////////////////////////////////// MATCHES /////////////////////////////////////////-->
+                                                <div class="col-12 mt-2 p-0 win">
+                                                    <div class="d-flex justify-content-between w-100 border border-secondary">
+                                                        <div
+                                                            class=" d-flex align-items-center flex-grow-1 justify-content-between p-2 m-0 small">
+                                                            <div class="d-flex flex-column p-0 text-center">
+                                                                <span class="font-weight-bold">ARAM</span>
+                                                                <span><small class="text-muted">19 Hours
+                                                                        ago</small></span>
+                                                                <span
+                                                                    class="font-weight-bold text-primary">Victory</span>
+                                                                <span><small class="text-muted">21m 38s</small></span>
+                                                            </div>
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center">
+                                                                <div
+                                                                    class="row d-flex justify-content-center align-items-center">
+                                                                    <div class="col-12">
+                                                                        <div
+                                                                            class="row d-flex justify-content-center align-items-center">
+                                                                            <div
+                                                                                class="col-6 p-0 d-flex justify-content-center align-items-center">
+                                                                                <img src="img/Lucian.png" alt=""
+                                                                                    class="rounded-circle w-75">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/SummonerSnowball.png"
+                                                                                    alt="" class="mb-1 rounded p-0 m-0">
+                                                                                <img src="img/SummonerFlash.png" alt=""
+                                                                                    class="mb-1 rounded p-0 m-0">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/comet.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0 bg-dark">
+                                                                                <img src="img/dominance.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0">
+                                                                            </div>
+                                                                            <div class="col-12 text-center m-0 p-0">
+                                                                                <span>Lucian</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center small">
+                                                                <p class="font-weight-bold text-secondary m-0">10 / <span
+                                                                        class="text-danger">5</span> / 22</p>
+                                                                <p class="font-weight-bold text-secondary m-0"><span
+                                                                        class="text-dark">0.60:1</span> KDA
+                                                                </p>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex flex-column justify-content-center align-items-center">
+                                                                <span class="text-muted small">Level15</span>
+                                                                <span class="text-muted small">30 (2) CS</span>
+                                                                <span class="text-danger small">P/Kill 80%</span>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex justify-content-center align-items-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="d-flex">
+                                                                        <div class="item">
+                                                                            <img src="img/LudensEcho.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Rabadon.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Sheen.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/PoroBiscuit.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="item">
+                                                                            <img src="img/SpiritManager.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/BootsBasic.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item rounded blank">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Ward.png" alt=""
+                                                                                class="rounded-circle">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team">
+                                                                        <div class="player">
+                                                                            <img src="img/Alistar.jpg" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>D3vils</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/rengar.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>One of Th...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/Kalista.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Kl4mca</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/kindred.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Bishojo</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/sylas.jpg" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>LeeSin2K</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team">
+                                                                        <div class="player">
+                                                                            <img src="img/kayn.jpg" alt=""
+                                                                                class="playerImg border border-secondary ">
+                                                                            <span>BidgiCap ...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/Zed.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Just My ...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/teemo.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Triberium</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/Lucian.png" alt=""
+                                                                                class="playerImg border border-secondary rounded-circle">
+                                                                            <span>Hedox</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/leona.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Lightyiar</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex bg-primary align-self-stretch p-2 align-items-end">
+                                                            <button class="btn btn-link text-white"><i
+                                                                    class="fas fa-chevron-down"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                
+                                                <!-- MATCHES -->
+                                                <div class="col-12 mt-2 p-0 defeat">
+                                                    <div class="d-flex justify-content-between w-100 border border-secondary small">
+                                                        <div
+                                                            class=" d-flex align-items-center flex-grow-1 justify-content-between p-2 m-0">
+                                                            <div class="d-flex flex-column p-0 text-center">
+                                                                <span class="font-weight-bold">ARAM</span>
+                                                                <span><small class="text-muted">19 hours
+                                                                        ago</small></span>
+                                                                <span class="font-weight-bold text-danger">Defeat</span>
+                                                                <span><small class="text-muted">20m 14s</small></span>
+                                                            </div>
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center">
+                                                                <div
+                                                                    class="row d-flex justify-content-center align-items-center">
+                                                                    <div class="col-12">
+                                                                        <div
+                                                                            class="row d-flex justify-content-center align-items-center">
+                                                                            <div
+                                                                                class="col-6 p-0 d-flex justify-content-center align-items-center">
+                                                                                <img src="img/Anivia.png" alt=""
+                                                                                    class="rounded-circle w-75">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/SummonerSnowball.png"
+                                                                                    alt="" class="mb-1 rounded p-0 m-0">
+                                                                                <img src="img/SummonerFlash.png" alt=""
+                                                                                    class="mb-1 rounded p-0 m-0">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/comet.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0 bg-dark">
+                                                                                <img src="img/dominance.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0">
+                                                                            </div>
+                                                                            <div class="col-12 text-center m-0 p-0">
+                                                                                <span>Anivia</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center small">
+                                                                <p class="font-weight-bold text-secondary m-0">3/ <span
+                                                                        class="text-danger">11</span> / 9</p>
+                                                                <p class="font-weight-bold text-secondary m-0"><span
+                                                                        class="text-dark">1,09:1</span> KDA
+                                                                </p>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex flex-column justify-content-center align-items-center">
+                                                                <span class="text-muted small">Level15</span>
+                                                                <span class="text-muted small">27 (1.3) CS</span>
+                                                                <span class="text-danger small">P/Kill 29%</span>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex justify-content-center align-items-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="d-flex">
+                                                                        <div class="item">
+                                                                            <img src="img/LudensEcho.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/CdBoots.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Sphere.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/PoroBiscuit.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="item">
+                                                                            <img src="img/BlastingWand.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item rounded blank">
+                                                                        </div>
+                                                                        <div class="item rounded blank">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Ward.png" alt=""
+                                                                                class="rounded-circle">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team mr-1">
+                                                                        <div class="player">
+                                                                            <img src="img/fizz.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>IIGothicII</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/maokai.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>TheWerto</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/fizz.png" alt=""
+                                                                                class="playerImg border border-secondary rounded-circle">
+                                                                            <span>Hedox</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/jhin.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Serious Ico </span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/talon.jpg" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Mew</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team">
+                                                                        <div class="player">
+                                                                            <img src="img/yasuo.png" alt=""
+                                                                                class="playerImg border border-secondary ">
+                                                                            <span>ShunpoT...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/Nidalee.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>GhostSla...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/corki.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>CONELIUS</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/quinn.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>OSVETNIK</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/illaoi.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>SlingingPl...</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex bg-danger align-self-stretch p-2 align-items-end">
+                                                            <button class="btn btn-link text-white"><i
+                                                                    class="fas fa-chevron-down"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                                <!-- /////////////// MATCH ///////////////// -->
+                                                <div class="col-12 mt-2 p-0 win">
+                                                    <div class="d-flex justify-content-between w-100 border border-secondary small">
+                                                        <div
+                                                            class=" d-flex align-items-center flex-grow-1 justify-content-between p-2 m-0 ">
+                                                            <div class="d-flex flex-column p-0 text-center">
+                                                                <span class="font-weight-bold">ARAM</span>
+                                                                <span><small class="text-muted">20 hours
+                                                                        ago</small></span>
+                                                                <span class="font-weight-bold text-primary">Victory</span>
+                                                                <span><small class="text-muted">23m 41s</small></span>
+                                                            </div>
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center">
+                                                                <div
+                                                                    class="row d-flex justify-content-center align-items-center">
+                                                                    <div class="col-12">
+                                                                        <div
+                                                                            class="row d-flex justify-content-center align-items-center">
+                                                                            <div
+                                                                                class="col-6 p-0 d-flex justify-content-center align-items-center">
+                                                                                <img src="img/Ezreal.png" alt=""
+                                                                                    class="rounded-circle w-75">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/SummonerSnowball.png"
+                                                                                    alt="" class="mb-1 rounded p-0 m-0">
+                                                                                <img src="img/SummonerFlash.png" alt=""
+                                                                                    class="mb-1 rounded p-0 m-0">
+                                                                            </div>
+                                                                            <div
+                                                                                class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                <img src="img/darkharvest.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0 bg-dark">
+                                                                                <img src="img/Sorcery-2.png" alt=""
+                                                                                    class="mb-1 rounded-circle p-0 m-0 ">
+                                                                            </div>
+                                                                            <div class="col-12 text-center m-0 p-0">
+                                                                                <span>Anivia</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div
+                                                                class=" d-flex flex-column justify-content-center align-items-center small">
+                                                                <p class="font-weight-bold text-secondary m-0 m-0">8/ <span
+                                                                        class="text-danger">11</span> / 25</p>
+                                                                <p class="font-weight-bold text-secondary m-0"><span
+                                                                        class="text-dark">3.00:1</span> KDA
+                                                                </p>
+                                                                <span class="badge badge-pill badge-danger">Double kill</span>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex flex-column justify-content-center align-items-center">
+                                                                <span class="text-muted small">Level18</span>
+                                                                <span class="text-muted small">25 (1.1) CS</span>
+                                                                <span class="text-danger small">P/Kill 29%</span>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex justify-content-center align-items-center">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="d-flex">
+                                                                        <div class="item">
+                                                                            <img src="img/SaraphCompassion.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Sheen.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Rabadon.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/PoroBiscuit.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="item rounded blank">
+                                                                        </div>
+                                                                        <div class="item ">
+                                                                                <img src="img/MPShoes.png" alt=""
+                                                                                class="rounded w-100">
+                                                                        </div>
+                                                                        <div class="item rounded blank">
+                                                                        </div>
+                                                                        <div class="item">
+                                                                            <img src="img/Ward.png" alt=""
+                                                                                class="rounded-circle">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="d-flex">
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team mr-1">
+                                                                        <div class="player">
+                                                                            <img src="img/maokai.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>IIGothicII</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/fizz.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>TheWerto</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/Ezreal.png" alt=""
+                                                                                class="playerImg border border-secondary rounded-circle">
+                                                                            <span>Hedox</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/yasuo.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Serious Ico </span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/talon.jpg" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>Mew</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex flex-column">
+                                                                    <div class="team">
+                                                                        <div class="player">
+                                                                            <img src="img/Nidalee.png" alt=""
+                                                                                class="playerImg border border-secondary ">
+                                                                            <span>ShunpoT...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/teemo.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>GhostSla...</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/leona.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>CONELIUS</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/zed.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>OSVETNIK</span>
+                                                                        </div>
+                                                                        <div class="player">
+                                                                            <img src="img/quinn.png" alt=""
+                                                                                class="playerImg border border-secondary">
+                                                                            <span>SlingingPl...</span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div
+                                                            class="d-flex bg-primary align-self-stretch p-2 align-items-end">
+                                                            <button class="btn btn-link text-white"><i
+                                                                    class="fas fa-chevron-down"></i></button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 mt-2 p-0 win">
+                                                        <div class="d-flex justify-content-between w-100 border border-secondary small">
+                                                            <div
+                                                                class=" d-flex align-items-center flex-grow-1 justify-content-between p-2 m-0">
+                                                                <div class="d-flex flex-column p-0 text-center">
+                                                                    <span class="font-weight-bold">ARAM</span>
+                                                                    <span><small class="text-muted">19 Hours
+                                                                            ago</small></span>
+                                                                    <span
+                                                                        class="font-weight-bold text-primary">Victory</span>
+                                                                    <span><small class="text-muted">21m 38s</small></span>
+                                                                </div>
+                                                                <div
+                                                                    class=" d-flex flex-column justify-content-center align-items-center">
+                                                                    <div
+                                                                        class="row d-flex justify-content-center align-items-center">
+                                                                        <div class="col-12">
+                                                                            <div
+                                                                                class="row d-flex justify-content-center align-items-center">
+                                                                                <div
+                                                                                    class="col-6 p-0 d-flex justify-content-center align-items-center">
+                                                                                    <img src="img/Lucian.png" alt=""
+                                                                                        class="rounded-circle w-75">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                    <img src="img/SummonerSnowball.png"
+                                                                                        alt="" class="mb-1 rounded p-0 m-0">
+                                                                                    <img src="img/SummonerFlash.png" alt=""
+                                                                                        class="mb-1 rounded p-0 m-0">
+                                                                                </div>
+                                                                                <div
+                                                                                    class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                    <img src="img/comet.png" alt=""
+                                                                                        class="mb-1 rounded-circle p-0 m-0 bg-dark">
+                                                                                    <img src="img/dominance.png" alt=""
+                                                                                        class="mb-1 rounded-circle p-0 m-0">
+                                                                                </div>
+                                                                                <div class="col-12 text-center m-0 p-0">
+                                                                                    <span>Lucian</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+    
+                                                                <div
+                                                                    class=" d-flex flex-column justify-content-center align-items-center small">
+                                                                    <p class="font-weight-bold text-secondary m-0">10 / <span
+                                                                            class="text-danger">5</span> / 22</p>
+                                                                    <p class="font-weight-bold text-secondary m-0"><span
+                                                                            class="text-dark">0.60:1</span> KDA
+                                                                    </p>
+                                                                </div>
+                                                                <div
+                                                                    class="d-flex flex-column justify-content-center align-items-center">
+                                                                    <span class="text-muted small">Level15</span>
+                                                                    <span class="text-muted small">30 (2) CS</span>
+                                                                    <span class="text-danger small">P/Kill 80%</span>
+                                                                </div>
+                                                                <div
+                                                                    class="d-flex justify-content-center align-items-center">
+                                                                    <div class="d-flex flex-column">
+                                                                        <div class="d-flex">
+                                                                            <div class="item">
+                                                                                <img src="img/LudensEcho.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <img src="img/Rabadon.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <img src="img/Sheen.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <img src="img/PoroBiscuit.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex">
+                                                                            <div class="item">
+                                                                                <img src="img/SpiritManager.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <img src="img/BootsBasic.png" alt=""
+                                                                                    class="rounded w-100">
+                                                                            </div>
+                                                                            <div class="item rounded blank">
+                                                                            </div>
+                                                                            <div class="item">
+                                                                                <img src="img/Ward.png" alt=""
+                                                                                    class="rounded-circle">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-flex">
+                                                                    <div class="d-flex flex-column">
+                                                                        <div class="team">
+                                                                            <div class="player">
+                                                                                <img src="img/Alistar.jpg" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>D3vils</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/rengar.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>One of Th...</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/Kalista.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>Kl4mca</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/kindred.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>Bishojo</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/sylas.jpg" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>LeeSin2K</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex flex-column">
+                                                                        <div class="team">
+                                                                            <div class="player">
+                                                                                <img src="img/kayn.jpg" alt=""
+                                                                                    class="playerImg border border-secondary ">
+                                                                                <span>BidgiCap ...</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/Zed.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>Just My ...</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/teemo.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>Triberium</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/Lucian.png" alt=""
+                                                                                    class="playerImg border border-secondary rounded-circle">
+                                                                                <span>Hedox</span>
+                                                                            </div>
+                                                                            <div class="player">
+                                                                                <img src="img/leona.png" alt=""
+                                                                                    class="playerImg border border-secondary">
+                                                                                <span>Lightyiar</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div
+                                                                class="d-flex bg-primary align-self-stretch p-2 align-items-end">
+                                                                <button class="btn btn-link text-white"><i
+                                                                        class="fas fa-chevron-down"></i></button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-12 mt-2 p-0 win">
+                                                            <div class="d-flex justify-content-between w-100 border border-secondary">
+                                                                <div
+                                                                    class=" d-flex align-items-center flex-grow-1 justify-content-between p-2 m-0 small">
+                                                                    <div class="d-flex flex-column p-0 text-center">
+                                                                        <span class="font-weight-bold">ARAM</span>
+                                                                        <span><small class="text-muted">19 Hours
+                                                                                ago</small></span>
+                                                                        <span
+                                                                            class="font-weight-bold text-primary">Victory</span>
+                                                                        <span><small class="text-muted">21m 38s</small></span>
+                                                                    </div>
+                                                                    <div
+                                                                        class=" d-flex flex-column justify-content-center align-items-center">
+                                                                        <div
+                                                                            class="row d-flex justify-content-center align-items-center">
+                                                                            <div class="col-12">
+                                                                                <div
+                                                                                    class="row d-flex justify-content-center align-items-center">
+                                                                                    <div
+                                                                                        class="col-6 p-0 d-flex justify-content-center align-items-center">
+                                                                                        <img src="img/Lucian.png" alt=""
+                                                                                            class="rounded-circle w-75">
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                        <img src="img/SummonerSnowball.png"
+                                                                                            alt="" class="mb-1 rounded p-0 m-0">
+                                                                                        <img src="img/SummonerFlash.png" alt=""
+                                                                                            class="mb-1 rounded p-0 m-0">
+                                                                                    </div>
+                                                                                    <div
+                                                                                        class="col-3 d-flex justify-content-around align-items-center flex-column p-0 m-0">
+                                                                                        <img src="img/comet.png" alt=""
+                                                                                            class="mb-1 rounded-circle p-0 m-0 bg-dark">
+                                                                                        <img src="img/dominance.png" alt=""
+                                                                                            class="mb-1 rounded-circle p-0 m-0">
+                                                                                    </div>
+                                                                                    <div class="col-12 text-center m-0 p-0">
+                                                                                        <span>Lucian</span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+        
+                                                                    <div
+                                                                        class=" d-flex flex-column justify-content-center align-items-center small">
+                                                                        <p class="font-weight-bold text-secondary m-0">10 / <span
+                                                                                class="text-danger">5</span> / 22</p>
+                                                                        <p class="font-weight-bold text-secondary m-0"><span
+                                                                                class="text-dark">0.60:1</span> KDA
+                                                                        </p>
+                                                                    </div>
+                                                                    <div
+                                                                        class="d-flex flex-column justify-content-center align-items-center">
+                                                                        <span class="text-muted small">Level15</span>
+                                                                        <span class="text-muted small">30 (2) CS</span>
+                                                                        <span class="text-danger small">P/Kill 80%</span>
+                                                                    </div>
+                                                                    <div
+                                                                        class="d-flex justify-content-center align-items-center">
+                                                                        <div class="d-flex flex-column">
+                                                                            <div class="d-flex">
+                                                                                <div class="item">
+                                                                                    <img src="img/LudensEcho.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img src="img/Rabadon.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img src="img/Sheen.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img src="img/PoroBiscuit.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="d-flex">
+                                                                                <div class="item">
+                                                                                    <img src="img/SpiritManager.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img src="img/BootsBasic.png" alt=""
+                                                                                        class="rounded w-100">
+                                                                                </div>
+                                                                                <div class="item rounded blank">
+                                                                                </div>
+                                                                                <div class="item">
+                                                                                    <img src="img/Ward.png" alt=""
+                                                                                        class="rounded-circle">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <div class="d-flex flex-column">
+                                                                            <div class="team">
+                                                                                <div class="player">
+                                                                                    <img src="img/Alistar.jpg" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>D3vils</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/rengar.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>One of Th...</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/Kalista.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>Kl4mca</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/kindred.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>Bishojo</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/sylas.jpg" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>LeeSin2K</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="d-flex flex-column">
+                                                                            <div class="team">
+                                                                                <div class="player">
+                                                                                    <img src="img/kayn.jpg" alt=""
+                                                                                        class="playerImg border border-secondary ">
+                                                                                    <span>BidgiCap ...</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/Zed.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>Just My ...</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/teemo.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>Triberium</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/Lucian.png" alt=""
+                                                                                        class="playerImg border border-secondary rounded-circle">
+                                                                                    <span>Hedox</span>
+                                                                                </div>
+                                                                                <div class="player">
+                                                                                    <img src="img/leona.png" alt=""
+                                                                                        class="playerImg border border-secondary">
+                                                                                    <span>Lightyiar</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div
+                                                                    class="d-flex bg-primary align-self-stretch p-2 align-items-end">
+                                                                    <button class="btn btn-link text-white"><i
+                                                                            class="fas fa-chevron-down"></i></button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 p-0">
+                                                            <button class="btn btn-block">
+                                                                <a href="#" class="text-muted">Show More</a>
+                                                            </button>
+                                                        </div>
+        
+                                            </div>
+                                            <div class="tab-pane fade" id="ranked" role="tabpanel"
+                                                aria-labelledby="ranked-tab">Same Content as "Total, just different stats"</div>
+                                            <div class="tab-pane fade" id="ranked-flex" role="tabpanel"
+                                                aria-labelledby="ranked-flex-tab">
+                                                <div class="row text-center p-5">
+                                                        <div class="flex-5v5__icon col-12">
+                                                            <i class="fas fa-exclamation-circle"></i>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            There are no results found.
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="nav-champions" role="tabpanel" aria-labelledby="nav-champions-tab">...
-                </div>
-                <div class="tab-pane fade" id="nav-leagues" role="tabpanel" aria-labelledby="nav-leagues-tab">...</div>
+                <div class="tab-pane fade" id="nav-champions" role="tabpanel" aria-labelledby="nav-champions-tab">
+                        This page consist of just some champions and stats. Very repetitive stuff, so currently I will leave it for the future.
+                        <strong class="d-block text-danger">Here is an image</strong>
+                        <img src="img/champions.png" alt="" class="w-100">
+                    </div>
+                    <div class="tab-pane fade" id="nav-leagues" role="tabpanel" aria-labelledby="nav-leagues-tab">
+                        Simple layout with a lot of important to fill in by hand. Again, very repetitive, and probably will leave it for the future.
+                        <strong class="d-block text-danger">Here is an image</strong>
+                        <img src="img/leagues.png" alt="" class="w-100">
+                    </div>
             </div>
         </div>
-    </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
-    <script src="script.js"></script>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+        </script>
+        <script src="script.js"></script>
 </body>
 
 </html>
