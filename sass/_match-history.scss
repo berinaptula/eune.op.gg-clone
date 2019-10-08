@@ -1,0 +1,38 @@
+.item {
+
+    margin: 1px;
+    min-height: 22px;
+    min-width: 22px;
+
+    img {
+        background-color: gray;
+    }
+}
+
+.blank {
+    background-color: gray;
+}
+
+.blank-img {
+    opacity: 0;
+}
+
+.player {
+    span {
+        font-size: 0.5rem;
+    }
+}
+
+.playerImg {
+    width: 20px;
+    height: 20px;
+}
+
+
+.win {
+    background-color: #A3CEEE;
+}
+
+.defeat {
+    background-color: #E3B6B3;
+}

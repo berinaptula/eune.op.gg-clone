@@ -44,4 +44,14 @@
 }
 
 @import "user-profile";
-@import "user-statistics"
+@import "user-statistics";
+@import "match-history";
+
+body {
+    background-color: #ededed;
+    min-width: 780px;
+}
+
+.container {
+    max-width: 1400px;
+}
